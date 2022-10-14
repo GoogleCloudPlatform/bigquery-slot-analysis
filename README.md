@@ -15,7 +15,9 @@ With the [query framework](FRAMEWORK.md), we present a structured approach towar
 
 ## Queries
 
-[TBD]
+- Hierarichal Queries
+    - [Many dimensions](./queries/hierarichal/many_dimensions)
+    - [Quantile statistics](#)
 
 
 ## Disclaimer
