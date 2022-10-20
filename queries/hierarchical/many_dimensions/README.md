@@ -1,4 +1,7 @@
 # Many Dimensions
+
+With the following set of queries, we aim to look at slot usage at multiple levels of granularity across folder, project and jobs. With the columns presented, we aim to compare the slot consumption on average / peak (per second) against the number of terrabytes processed. Applying this comparison aids in the cost-benefit analysis of deciding on the minimum number of slot commitments to purchase as a function of average and peak slot usage with on-demand usage.
+
 ## [Query 1] BUCKETS=FOLDER, SPACE SCOPE=FOLDER
 
 [Link to query](query_1.sql)
