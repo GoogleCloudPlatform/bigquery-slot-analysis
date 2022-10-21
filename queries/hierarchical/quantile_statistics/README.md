@@ -39,3 +39,18 @@ Table
 ### Visualization Options
 
 Table or Table with heat map can be generally good options
+
+
+## [Query 3] BUCKETS=Job, SPACE SCOPE=FOLDER
+
+[Link to query](query_3.sql)
+
+### Scenario
+*Across all jobs in a folder* I would like to understand the percentage of queries that consume around or above a number of slots and compare between jobs.
+
+### Output example
+TBD
+
+### Visualization Options
+
+Table or Table with heat map can be generally good options
