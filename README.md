@@ -10,14 +10,15 @@ Before starting with your analysis journey, it is highly recommended to get up t
 
 With the [query framework](FRAMEWORK.md), we present a structured approach towards composing and writing SQL queries for analysing and estimating slots in BigQuery. In summary, every query is compose of multiple parameters represented as DIMENSION, BUCKET, and SCOPE.
 
-- Framework parameters (TODO add direct link)
-- Query categories  (TODO add direct link)
+- [Framework parameters](FRAMEWORK.md#framework-parameters)
+- [Query categories](FRAMEWORK.md#query-categories)
 
 ## Queries
 
 - Hierarichal Queries
-    - [Many dimensions](./queries/hierarichal/many_dimensions)
-    - [Quantile statistics](#)
+    - [Many dimensions](queries/hierarichal/many_dimensions)
+    - [Quantile statistics](queries/hierarchical/quantile_statistics)
+    - [Time Serice](queries/time-series/consumption_timeline)
 
 
 ## Disclaimer
