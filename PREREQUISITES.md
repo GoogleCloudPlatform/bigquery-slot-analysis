@@ -2,7 +2,10 @@
 
 ## Recap on Pricing options in BigQuery
 
-[TBD - Recap of section one in the document, simplified with links to official docs as much as possible]
+There are two main pricing models for executing query jobs in BigQuery:
+- [On demand pricing](https://cloud.google.com/bigquery/pricing#on_demand_pricing): where your querying project is chard based on the number of TB processed in the query. You will generally have access to 2000 concurrent slots, shared among all queries in a single project. It may happen that BigQuery temporarily bursts beyond this limit to accelerate queries.
+- [Flat-rate pricing](https://cloud.google.com/bigquery/pricing#flat-rate_pricing): where you purchase slots (processing capacity), that you attach to projects via reservations.The included projects are not billed by scanned data anymore, which makes pricing more predictible. If your capacity demands exceed your committed capacity, BigQuery will queue up slots, which may slow down processing, but you will not be charged additional fees. More info on slots and reservations can be found in the [reservations documentation](https://cloud.google.com/bigquery/docs/reservations-intro).
+
 
 ## Understanding BigQuery's INFORMATION_SCHEMA views
 
