@@ -49,15 +49,3 @@ In SQL, this will mostly be determined by a FROM clause that specifies the table
 ### d. TIME SCOPE
 
 This attribute determines the time scope you are interested in. This is simple, since in your SQL it should be implemented with a WHERE on a timestamp column.
-
-## Query categories
-
-All the possible queries you can create can seem a bit daunting. Let us propose some guidelines you can follow with customers.
-
-We propose two kinds of queries based on the framework:
-
-- **Scalar queries** if you are interested in statistics at the same granularity as your TIME SCOPE. E.g.: if your time scope is one day, you will have summary statistics for that day. They are particularly useful for committing to buy slots.
-
-- **Time-series queries** if you are interested in statistics at a smaller granularity than your TIME SCOPE. E.g.: If your time scope is one day, you want to have summary statistics for each second. You are showing the statistics inside this specific time scope. They are particularly useful for seeing time-dependent evolution, hence for buying flex slots.
-
-You might find other useful types yourself!
