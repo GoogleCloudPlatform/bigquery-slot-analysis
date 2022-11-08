@@ -1,6 +1,5 @@
 # Framework for thinking about queries
 
-## Framework parameters
 
 When analyzing slot usage, it is easy to come up with different queries. It can be hard to grasp how they complement each other and which ones should be used.
 
@@ -8,7 +7,7 @@ We propose a framework that encompasses the queries we have thought of so far. I
 
 **The framework will be best understood if you think of the result of your queries as a table with lines and columns.**
 
-### a. DIMENSIONS
+## a. DIMENSIONS
 
 The DIMENSIONS of your query are the metrics you will have as an output. Let’s say that one line of your output is one GCP project, you could have the following columns:
 
@@ -22,7 +21,7 @@ The DIMENSIONS of your query are the metrics you will have as an output. Let’s
 
 Some useful metrics include summary statistics about slot usage (like average, peak or quartiles). Based on these dimensions, you can also compare the price if you bought, let’s say, a number of slots equal to your average slot usage, versus the on-demand cost based on the number of bytes processed.
 
-### b. BUCKETS
+## b. BUCKETS
 
 Here, you define what is actually a line of data in your output (if you think of your output as a simple table). Your line could be:
 
@@ -33,7 +32,7 @@ Here, you define what is actually a line of data in your output (if you think of
 - A second for a specific job
 - etc.
 
-### c. SPACE SCOPE
+## c. SPACE SCOPE
 
 This attribute determines where you are going to get your data from. It could be:
 - An organization
@@ -46,6 +45,6 @@ Let us say you are interested in seeing information about slot usage for each pr
 
 In SQL, this will mostly be determined by a FROM clause that specifies the table you are querying (INFORMATION_SCHEMA_FROM_), and a WHERE clause in some cases.
 
-### d. TIME SCOPE
+## d. TIME SCOPE
 
 This attribute determines the time scope you are interested in. This is simple, since in your SQL it should be implemented with a WHERE on a timestamp column.
