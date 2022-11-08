@@ -56,13 +56,13 @@ All the possible queries you can create can seem a bit daunting. Let us propose 
 
 We propose two kinds of queries based on the framework:
 
-- **Hierarchical queries** if you are interested in statistics at the same granularity as your TIME SCOPE. E.g.: if your time scope is one day, you will have summary statistics for that day. They are particularly useful for committing to buy slots.
+- **Scalar queries** if you are interested in statistics at the same granularity as your TIME SCOPE. E.g.: if your time scope is one day, you will have summary statistics for that day. They are particularly useful for committing to buy slots.
 
 - **Time-series queries** if you are interested in statistics at a smaller granularity than your TIME SCOPE. E.g.: If your time scope is one day, you want to have summary statistics for each second. You are showing the statistics inside this specific time scope. They are particularly useful for seeing time-dependent evolution, hence for buying flex slots.
 
 You might find other useful types yourself!
 
-### a. Hierarchical quries
+### a. Scalar quries
 
 When you start this work, you might focus on the slot usage for a whole folder. For a specific folder, what are the quartiles of my slot usage in the last 10 days ? (BUCKETS=folder, DIMENSIONS=quartiles, SPACE SCOPE=folder, TIME SCOPE=10 days). Your output would be one line that shows you the slot usage of everything under this folder. Maybe you can choose to buy the number of slots that is equal to your 75% percentile slot usage, if you are ok for some queries to be slowed down.
 

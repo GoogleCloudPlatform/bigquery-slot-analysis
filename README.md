@@ -15,7 +15,7 @@ With the [query framework](FRAMEWORK.md), we present a structured approach towar
 
 ## Queries
 
-- Hierarchical Queries
+- Scalar Queries
     - [Many dimensions](queries/hierarichal/many_dimensions)
     - [Quantile statistics](queries/hierarchical/quantile_statistics)
     - [Time Series](queries/time-series/consumption_timeline)
