@@ -10,8 +10,6 @@ Before starting with your analysis journey, it is highly recommended to get up t
 
 With the [query framework](FRAMEWORK.md), we present a structured approach towards composing and writing SQL queries for analysing and estimating slots in BigQuery. In summary, every query is compose of multiple parameters represented as DIMENSION, BUCKET, and SCOPE.
 
-- [Framework parameters](FRAMEWORK.md#framework-parameters)
-- [Query categories](FRAMEWORK.md#query-categories)
 
 ## Queries
 
@@ -20,4 +18,4 @@ Refer to the [queries directory](queries/QUERIES.md) to see the queries that are
 
 ## Disclaimer
 
-All queries in this document are experimental and subject to change / improve based on feedback. Please make sure to test before using. This project is not an official Google project. It is not supported by Google and Google specifically disclaims all warranties as to its quality, merchantability, or fitness for a particular purpose.
+All queries in this document are experimental and subject to change / improve based on feedback. Please make sure to test before using. This project is not an official Google project. It is not supported by Google and Google specifically disclaims all warranties as to its quality, merchantability, or fitness for a particular purpose. 
