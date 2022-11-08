@@ -15,12 +15,12 @@ With the [query framework](FRAMEWORK.md), we present a structured approach towar
 
 ## Queries
 
-- Hierarichal Queries
+- Hierarchical Queries
     - [Many dimensions](queries/hierarichal/many_dimensions)
     - [Quantile statistics](queries/hierarchical/quantile_statistics)
-    - [Time Serice](queries/time-series/consumption_timeline)
+    - [Time Series](queries/time-series/consumption_timeline)
 
 
 ## Disclaimer
 
-All queries in this document are experimental and subject to change / improvements based on feedback. Please make sure to test before using. This project is not an official Google project. It is not supported by Google and Google specifically disclaims all warranties as to its quality, merchantability, or fitness for a particular purpose.
+All queries in this document are experimental and subject to change / improve based on feedback. Please make sure to test before using. This project is not an official Google project. It is not supported by Google and Google specifically disclaims all warranties as to its quality, merchantability, or fitness for a particular purpose.

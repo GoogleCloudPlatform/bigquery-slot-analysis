@@ -62,7 +62,7 @@ We propose two kinds of queries based on the framework:
 
 You might find other useful types yourself!
 
-### a. Hierarichal quries
+### a. Hierarchical quries
 
 When you start this work, you might focus on the slot usage for a whole folder. For a specific folder, what are the quartiles of my slot usage in the last 10 days ? (BUCKETS=folder, DIMENSIONS=quartiles, SPACE SCOPE=folder, TIME SCOPE=10 days). Your output would be one line that shows you the slot usage of everything under this folder. Maybe you can choose to buy the number of slots that is equal to your 75% percentile slot usage, if you are ok for some queries to be slowed down.
 
