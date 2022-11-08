@@ -31,3 +31,5 @@ Changing your SPACE SCOPE will also be easy:
 - Filter certain jobs/queries with a WHERE clause
 
 Changing the BUCKET and DIMENSIONS can be more involved, this is why we propose multiple queries that you can use and get inspired from.
+
+Note: in this repository, we have chosen to have all slots statistics to be calculated by second. E.g. for the “average slot” statistic, we compute the number of slots used each second, and then we average on the chosen time scope.  
