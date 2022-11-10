@@ -1,6 +1,6 @@
 # BigQuery Slot Analysis Framework
 
-Choosing the appropriate BigQuery slots model can be challenging without the right tools. In this project, we present a framework and set of opinionated queries that could help you in analysing slots usage and deciding on reservations.
+When you use BigQuery on-demand billing, choosing the appropriate BigQuery slots model can be challenging without the right tools. Should you buy slots? How many? Attach them to which projects? In this repository, we present a framework and set of opinionated queries that could help you in analysing the current slots usage of your jobs in order to facilitate these decisions.
 
 ## Getting started
 
