@@ -41,7 +41,7 @@ This attribute determines where you are going to get your data from. It could be
 - A project
 - etc.
 
-Let us say you are interested in seeing information about slot usage for each project in a folder. Then your LINE would be “project”, and your SCOPE would be “folder”. 
+Let us say you are interested in seeing information about slot usage for each project in a folder. Then your BUCKETS would be “projects”, and your SCOPE would be “folder”. 
 
 In SQL, this will mostly be determined by a FROM clause that specifies the table you are querying (INFORMATION_SCHEMA_FROM_), and a WHERE clause in some cases.
 
