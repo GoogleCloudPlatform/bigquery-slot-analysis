@@ -16,9 +16,9 @@ You might find other useful types yourself!
 There are the queries that are implemented so far in this repository.
 
 - Scalar Queries
-    - [Many dimensions](queries/hierarichal/many_dimensions/README.md)
-    - [Quantile statistics](queries/hierarchical/quantile_statistics/README.md)
-- [Time Series](queries/time-series/consumption_timeline/README.md)
+    - [Many dimensions](scalar/many_dimensions)
+    - [Quantile statistics](scalar/quantile_statistics)
+- [Time Series](time-series/consumption_timeline/)
 
 
 ## Modifying queries
