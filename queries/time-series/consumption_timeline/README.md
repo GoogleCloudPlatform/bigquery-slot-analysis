@@ -39,4 +39,6 @@ Table, Line Chart
 ### Visualization Options
 Table, Line Chart
 
+![Query 2 line chart](./img/query_1.png "Query 2 line chart")
+
 Due to having multiple projects per second, we can leverage this output to visualize multiple projects as multiple lines on one chart for comparison within the given time interval.
