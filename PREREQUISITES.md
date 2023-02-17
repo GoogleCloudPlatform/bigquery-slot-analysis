@@ -1,12 +1,14 @@
 # What to know before getting started
 
-## Recap on Pricing options in BigQuery
+## Pricing options with BigQuery
 
-There are two main pricing models for executing query jobs in BigQuery:
-- [On demand pricing](https://cloud.google.com/bigquery/pricing#on_demand_pricing): where your querying project is chard based on the number of TB processed in the query. You will generally have access to 2000 concurrent slots, shared among all queries in a single project. It may happen that BigQuery temporarily bursts beyond this limit to accelerate queries.
+As of the time of writing, BigQuery has two main pricing models:
 
-- [Flat-rate pricing](https://cloud.google.com/bigquery/pricing#flat-rate_pricing): where you purchase slots (processing capacity), that you attach to projects via reservations.The included projects are not billed by scanned data anymore, which makes pricing more predictible. If your capacity demands exceed your committed capacity, BigQuery will queue up slots, which may slow down processing, but you will not be charged additional fees. More info on slots and reservations can be found in the [reservations documentation](https://cloud.google.com/bigquery/docs/reservations-intro).
+- [On demand](https://cloud.google.com/bigquery/pricing#on_demand_pricing): where your querying project is charged based on the number of TB processed in the query. You will generally have access to 2000 slots as capacity per project. It may happen that BigQuery temporarily bursts beyond this limit to accelerate queries.
 
+- [Flat-rate](https://cloud.google.com/bigquery/pricing#flat-rate_pricing): where you purchase slots (processing capacity), that you attach to projects via reservations.The included projects are not billed by scanned data anymore, which makes pricing more predictible. If your capacity demands exceed your committed capacity, BigQuery will queue up slots, which may slow down processing, but you will not be charged additional fees. More info on slots and reservations can be found in the [reservations documentation](https://cloud.google.com/bigquery/docs/reservations-intro).
+
+**Note:** It is highly recommended to get familiar with BigQuery's pricing options by referring regularly to the [official documentation](https://cloud.google.com/bigquery/pricing).
 
 ## Understanding BigQuery's INFORMATION_SCHEMA views
 
