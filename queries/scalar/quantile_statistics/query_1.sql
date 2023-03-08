@@ -30,7 +30,7 @@ WITH
     period_start,
     SUM(period_slot_ms)/1000 AS total_slots_this_second
   FROM
-    `jgo-test-273414.information_schema_eu.jobs_timeline_by_folder_cleaned`
+    `[YOUR_PROJECT_ID].region-[YOUR_DATASET_REGION].INFORMATION_SCHEMA.JOBS_TIMELINE_BY_FOLDER`
   GROUP BY
     period_start),
   full_project_timeline AS (

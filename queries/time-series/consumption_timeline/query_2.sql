@@ -34,7 +34,7 @@ WITH
     (period_slot_ms / 1000) AS slots,
     total_bytes_processed*1e-12 AS terabytesProcessed
   FROM
-    `jgo-test-273414.information_schema_eu.jobs_timeline_by_folder_cleaned`
+    `[YOUR_PROJECT_ID].region-[YOUR_DATASET_REGION].INFORMATION_SCHEMA.JOBS_TIMELINE_BY_FOLDER`
   WHERE
     period_start BETWEEN _WHEN_FROM
     AND _WHEN_TO
